@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Game</title>
+    <link rel="stylesheet" href="tiktaktoe.css" type="text/css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>My Tic Tac  Toe Game </li>
+        </ul>
+    </nav>
+    <div class="big-container">
+        <div class="grid-container" >
+            <div class="box1 box  bl-0 bt-0" id="c0" ><span class="boxtext"></span></div>
+            <div class="box2 box bt-0" id="c1" ><span class="boxtext"></span></div>
+            <div class="box3 box bt-0 br-0" id="c2" ><span class="boxtext"></span></div>
+            <div class="box4 box bl-0" id="c3" ><span class="boxtext"></span></div>
+            <div class="box5 box" id="c4" ><span class="boxtext"></span></div>
+            <div class="box6 box br-0" id="c5" ><span class="boxtext"></span></div>
+            <div class="box7 box bl-0 bb-0" id="c6" ><span class="boxtext"></span></div>
+            <div class="box8 box bb-0" id="c7" ><span class="boxtext"></span></div>
+            <div class="box9 box bb-0 br-0" id="c8" ><span class="boxtext"></span></div>
+        </div>
+        <div class="gameInfo">
+            <h5><span class="head">Welcome to My Tic Tac Toe Game</span></h5>
+            <div class="txt">
+                <div id="turn1" class="play_X  active ">Turn for X</div>&emsp;
+            </div>
+            <button class="btn" value="Reload page" onclick="refreshPage()">Refresh</button>
+            <div class="imagebox">
+                <img class="image" id="pic" src="peach-cat.gif">
+                <img class="image" id="pic1" src="maggi.gif">
+
+            </div>
+        </div>
+    </div>
+    <script src="firstgame.js"></script>
+</body>
+</html>
